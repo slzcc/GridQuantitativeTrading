@@ -1,8 +1,6 @@
 {
     "coinList": [
         "ETHUSDT",
-        "BTCUSDT",
-        "BNBUSDT"
     ],
     "ETHUSDT": {
         "runBet": {
