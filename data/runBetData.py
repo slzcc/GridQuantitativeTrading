@@ -7,7 +7,7 @@ binan = BinanceAPI(api_key,api_secret)
 BASE_DIR = Path(__file__).resolve().parent.parent
 # linux
 #data_path = os.getcwd()+"/data/data.json"
-data_path = os.path.join(BASE_DIR, "/data/data.json")
+data_path = "./data/data.json"
 # windows
 # data_path = os.getcwd() + "\data\data.json"
 
