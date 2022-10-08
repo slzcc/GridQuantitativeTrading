@@ -2,9 +2,12 @@
 from app.BinanceAPI import BinanceAPI
 from app.authorization import api_key,api_secret
 import os,json
+from pathlib import Path
 binan = BinanceAPI(api_key,api_secret)
+BASE_DIR = Path(__file__).resolve().parent.parent
 # linux
-data_path = os.getcwd()+"/data/data.json"
+#data_path = os.getcwd()+"/data/data.json"
+data_path = os.path.join(BASE_DIR, "/data/data.json")
 # windows
 # data_path = os.getcwd() + "\data\data.json"
 
